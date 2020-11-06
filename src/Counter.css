@@ -1,0 +1,14 @@
+h2 {
+  text-align: center;
+  color: "red";
+}
+button {
+  height: 20px;
+  width: 100px;
+  background-color: "red";
+}
+
+.container {
+  background-color: "blue";
+  border: 1px solid black;
+}
