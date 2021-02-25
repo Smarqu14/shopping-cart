@@ -6,6 +6,7 @@ const Cart = ({ initialItems }) => {
   const initialState = JSON.parse(window.localStorage.getItem("items"));
   const [items, setItems] = useState(initialState || initialItems);
   const [count, setCount] = useState(0);
+  
   // similar to componentDidMount and componentDidUpdate
   useEffect(() => {
     window.localStorage.setItem("items", JSON.stringify(items));
